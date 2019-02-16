@@ -106,7 +106,7 @@ BUILD STATUS
 	To Remove the scheduled task you can use
 		```
 		schtask /delete /tn "SignariusCaro SCHEDULER" /f
-		
+		```
 		
 	### License
 	Open-sourced software licensed under the [MIT-LICENSE](http://opensource.org/licenses/MIT)
