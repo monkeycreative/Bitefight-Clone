@@ -96,11 +96,12 @@ BUILD STATUS
 		
 	To Disable the annoying command-line-pop-up each time the task runs:
 	
-		* Open Windows "**_Run_**" dialog by pressing "_Windows Key_ + _r_"
-		* Enter type "_Taskschd.msc_" and press _Enter_. This will open the "*Task Scheduler*".
-		* In *Task Scheduler`s* "_Active Tasks_" section find the "*_SignariusCaro SCHEDULER_*" task and _double-click_ it.
-		* In the left "*_Actions_*" panel click "_Properties_". This will open "*Properties*" pop-up.
-		* In the pop-up select the "*_Run whether user is logged in or not_*" and press _Enter_. You maybe asked for your 			   Windows user's password to complete the process.
+		* Open Windows "Run" dialog by pressing "Windows Key + r"
+		* Enter type "Taskschd.msc" and press Enter. This will open the "Task Scheduler".
+		* In Task Scheduler`s "Active Task"s section find the "SignariusCaro SCHEDULER" task and double-click it.
+		* In the left "Actions" panel click "Properties". This will open "Properties" pop-up.
+		* In the pop-up select the "Run whether user is logged in or not" and press Enter. You maybe asked for your
+		  Windows user's password to complete the process.
 		
 	
 	To Remove the scheduled task you can use
