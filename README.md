@@ -104,7 +104,7 @@ BUILD STATUS
 		
 	
 	To Remove the scheduled task you can use
-		```
+		```markdown
 		schtask /delete /tn "SignariusCaro SCHEDULER" /f
 		```
 		
