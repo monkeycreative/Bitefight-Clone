@@ -1,37 +1,112 @@
-## Welcome to GitHub Pages
+###### SignariusCaro - Browsergame
+## Online Role Playing Game
 
-You can use the [editor on GitHub](https://github.com/monkeycreative/SignariusCaro/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Image](src)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+BUILD STATUS
 
-### Markdown
+### Table of Contents
+1. Requirements
+2. Installation
+3. Running in local enviroment
+4. License
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Requirements (for Local Development)
+..* PHP 7.0.0 or Higher
+..* Git
+..* Composer
+..* SQLite
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Installation
+..* Clone the Repo
+	```
+	git clone https://github.com/monkeycreative/SignariusCaro.git release
+	```
+	
+..* Navigate to the Project folder
+	```
+	cd signariuscaro
+	```
+	
+..* Create .env file from the .env.example file
+	On Windows:
+	```
+	copy .env.example .env
+	```
+	On Linux/Debian:
+	```
+	cp .env.example .env
+	```
 
-1. Numbered
-2. List
+..* Run composer install to import the dependencies and enable auto-loading
+	```
+	composer install
+	```
+	
+..* Generate Laravel Application key
+	```
+	php artisan key:generate
+	```
+	
+..* Create SQLite database file
+	On Windows:
+	```
+	copy NUL database\database.sqlite
+	```
+	On Linux/Debian:
+	```
+	touch database/database.sqlite
+	```
+	
+..* Run Laravel database migration and seeds
+	```
+	php artisan migrate --seed
+	```
+	
+### Running in local enviroment
+..* Create a symbolic link from "public/storage" to "storage/app/public"
+	```
+	php artisan storage:link
+	```
+	
+..* Run PHP build-in development server on the host machine
+	```
+	php artisan serve
+	```
 
-**Bold** and _Italic_ and `Code` text
+..* Navigate to http://localhost:8000/
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/monkeycreative/SignariusCaro/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+..* Enable Laravel Tast Scheduling
+	1. Open the cron tab file
+		```
+		crontab -e
+		```
+	2. Add the following line and save
+		On Windows:
+		Open the Terminal as Administrator, navigate to the project`s folder and run:
+		```
+		schtasks /create /sc minute /mo 1 /tn "RPG SCHEDULER" /tr %cd%\scheduler.bat
+		```
+		On Linux/Debian:
+		```
+		***** php <path-to-project>/artisan schedule:run >> /dev/null 2>&1
+		```
+		
+	To Disable the annoying command-line-pop-up each time the task runs:
+		
+		1. Open Windows "*_Run_*" dialog by pressing "_Windows Key_ + _r_"
+		2. Enter type "_Taskschd.msc_" and press _Enter_. This will open the "*Task Scheduler*".
+		3. In *Task Scheduler`s* "_Active Tasks_" section find the "*_SignariusCaro SCHEDULER_*" task and _double-click_ it.
+		4. In the left "*_Actions_*" panel click "_Properties_". This will open "*Properties*" pop-up.
+		5. In the pop-up select the "*_Run whether user is logged in or not_*" and press _Enter_. You maybe asked for your Windows user's password to complete the process.
+		
+	
+	To Remove the scheduled task you can use
+		```
+		schtask /delete /tn "SignariusCaro SCHEDULER" /f
+		
+		
+	### License
+	Open-sourced software licensed under the [MIT-LICENSE](http://opensource.org/licenses/MIT)
