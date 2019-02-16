@@ -6,10 +6,10 @@
 BUILD STATUS
 
 ### Table of Contents
-1. [Requirements](#Requirements)
-2. [Installation](#Installation)
-3. [Running in local enviroment]()
-4. [License]()
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Running in local enviroment](#running-in-local-enviroment)
+4. [License](#license)
 
 
 ### Requirements (for Local Development)
