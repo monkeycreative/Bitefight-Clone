@@ -1,6 +1,6 @@
 ![Image](https://github.com/monkeycreative/SignariusCaro/blob/master/home_splash.jpg?raw=true)
 
-## Welcome to SignariusCaro
+### Welcome to SignariusCaro
 
 Table of Contents
 
