@@ -9,20 +9,20 @@
 ### SignariusCaro - Browsergame
 ## Online Role Playing Game
 
-### List of added Pages
+### List of Pages
 
-* Index
-* Register
-* Login
-  - Overview
-  	- Character
-	  - Edit Picture
-	- Attributes
-	- Statistic
-	- Fight modifications
-	- Talents
-  - City
-  	- Vendor
+* Index ✔
+* Register ✔
+* Login ✔
+  - Overview ✔
+  	- Character ✔
+	  - Edit Picture ✔
+	- Attributes ✔
+	- Statistic ✔
+	- Fight modifications ✔
+	- Talents ✔
+  - City ✔
+  	- Vendor ✔
 	- Graveyard
 	- Tavern
 	- Grotte
@@ -31,3 +31,12 @@
 	- Church
 	- Shaddow Book
 	- Voodoo Shop
+  - Clan
+  - Frindlist
+  - Notizen
+  - Configuration
+  - Forum
+  - Highscore
+  - Suche
+  - Support
+  - Logout
