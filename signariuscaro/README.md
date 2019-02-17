@@ -2,7 +2,7 @@
 
 <p align="center">
     <img alt="undefined" src="https://img.shields.io/github/license/monkeycreative/SignariusCaro.svg?label=License&style=for-the-badge">
-    <img src="https://img.shields.io/badge/test-test-red.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/Build-ALPHA-red.svg?style=for-the-badge"/>
     <img alt="undefined" src="https://img.shields.io/github/last-commit/monkeycreative/SignariusCaro.svg?style=for-the-badge">
 </p>
 
