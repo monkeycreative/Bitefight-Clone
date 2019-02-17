@@ -1,2 +1,25 @@
 
 *.exe
+signariuscaro/vendor/composer/LICENSE
+signariuscaro/vendor/composer/installed.json
+signariuscaro/vendor/composer/ClassLoader.php
+signariuscaro/vendor/composer/autoload_static.php
+signariuscaro/vendor/composer/autoload_real.php
+signariuscaro/vendor/composer/autoload_psr4.php
+signariuscaro/vendor/composer/autoload_namespaces.php
+signariuscaro/vendor/composer/autoload_files.php
+signariuscaro/vendor/composer/autoload_classmap.php
+signariuscaro/vendor/autoload.php
+signariuscaro/composer.phar
+signariuscaro/composer.bat
+signariuscaro/composer
+signariuscaro/vendor/composer/LICENSE
+signariuscaro/vendor/composer/installed.json
+signariuscaro/vendor/composer/ClassLoader.php
+signariuscaro/vendor/composer/autoload_static.php
+signariuscaro/vendor/composer/autoload_real.php
+signariuscaro/vendor/composer/autoload_psr4.php
+signariuscaro/vendor/composer/autoload_namespaces.php
+signariuscaro/vendor/composer/autoload_files.php
+signariuscaro/vendor/composer/autoload_classmap.php
+signariuscaro/vendor/autoload.php

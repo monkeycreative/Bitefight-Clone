@@ -11,15 +11,23 @@
 
 ### List of added Pages
 
-| K_Zeile 1		| K_Zeile 2		| K_Zeile 2 |
-| --------------|---------------|-----------|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
-| Spalte 1  	| Spalte 2		| Spalte 3	|
+* Index
+* Register
+* Login
+  - Overview
+  	- Character
+	  - Edit Picture
+	- Attributes
+	- Statistic
+	- Fight modifications
+	- Talents
+  - City
+  	- Vendor
+	- Graveyard
+	- Tavern
+	- Grotte
+	- Marktplace
+	- Library
+	- Church
+	- Shaddow Book
+	- Voodoo Shop
