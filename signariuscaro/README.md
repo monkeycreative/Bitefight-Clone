@@ -6,12 +6,20 @@
     <img alt="undefined" src="https://img.shields.io/github/last-commit/monkeycreative/SignariusCaro.svg?style=for-the-badge">
 </p>
 
-# Bitefight Clone Script (In Progress)
+### SignariusCaro - Browsergame
+## Online Role Playing Game
 
-Bitefight clone version for study purposes. If you have any better idea open issue, leave comment etc etc I am not familiar with github discussions lol
+### List of added Pages
 
-Also if you are efficient on calculating formulas you can help me with grotte and tavern missions.
-
-## Testing
-
-You can test script on: http://osein.tk
+| K_Zeile 1		| K_Zeile 2		| K_Zeile 2 |
+| --------------|---------------|-----------|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
+| Spalte 1  	| Spalte 2		| Spalte 3	|
