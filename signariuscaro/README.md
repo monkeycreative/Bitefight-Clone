@@ -1,42 +1,17 @@
 <p align="center"><img src="https://github.com/Osein/bitefight/blob/master/public/img/home_splash.jpg?raw=true" alt="Bitefight Private Server"></p>
 
 <p align="center">
-    <img alt="undefined" src="https://img.shields.io/github/license/monkeycreative/SignariusCaro.svg?label=License&style=for-the-badge">
-    <img src="https://img.shields.io/badge/Build-ALPHA-red.svg?style=for-the-badge"/>
-    <img alt="undefined" src="https://img.shields.io/github/last-commit/monkeycreative/SignariusCaro.svg?style=for-the-badge">
+    <img src="https://img.shields.io/travis/Osein/bitefight.svg?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/version-0.0.2-orange.svg?style=for-the-badge"/>
+    <a href="https://discord.gg/rg7Dbte"><img src="https://img.shields.io/discord/401039368678277131.svg?style=for-the-badge" alt="chat on Discord"></a>
 </p>
 
-### SignariusCaro - Browsergame
-## Online Role Playing Game
+# Bitefight Clone Script (In Progress)
 
-### List of Pages
+Bitefight clone version for study purposes. If you have any better idea open issue, leave comment etc etc I am not familiar with github discussions lol
 
-* Index ✔
-* Register ✔
-* Login ✔
-  - Overview ✔
-  	- Character ✔
-	  - Edit Picture ✔
-	- Attributes ✔
-	- Statistic ✔
-	- Fight modifications ✔
-	- Talents ✔
-  - City ✔
-  	- Vendor ✔
-	- Graveyard
-	- Tavern
-	- Grotte
-	- Marktplace
-	- Library
-	- Church
-	- Shaddow Book
-	- Voodoo Shop
-  - Clan
-  - Frindlist
-  - Notizen
-  - Configuration
-  - Forum
-  - Highscore
-  - Suche
-  - Support
-  - Logout
+Also if you are efficient on calculating formulas you can help me with grotte and tavern missions.
+
+## Testing
+
+You can test script on: http://osein.tk
